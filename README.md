@@ -1,6 +1,6 @@
 # TypeScript 教程  
 ## ts文件运行方式：  
-要运行这段 TypeScript 代码，需要按照以下步骤进行设置：  
+要运行 sample.ts 中的 TypeScript 代码，需要按照以下步骤进行设置：  
 1. 首先，确保计算机上已经安装了 Node.js 运行时环境。可以从 Node.js 官方网站 https://nodejs.org 下载并安装适用于自己操作系统的版本。  
 我使用的是mac电脑，所以下载的是mac版本。安装较为简单，不断按 **"继续"** 就可以了；  
 > 官网安装的方式会直接把 nodejs 和 npm 都安装好，不用分开安装；  
