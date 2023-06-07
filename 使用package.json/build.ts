@@ -1,0 +1,1 @@
+console.log("Hello, 此处为利用 package.json 调用的build脚本的运行结果。");
