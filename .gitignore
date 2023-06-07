@@ -1,0 +1,6 @@
+# 不同步安装的库文件；
+/使用package.json/node_modules
+
+# 不同步package.json生成的package-lock.json文件；
+package-lock.json
+
