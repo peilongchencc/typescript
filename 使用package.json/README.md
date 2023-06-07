@@ -34,7 +34,9 @@ npm run start
 npm install ts-node
 ```
 ts-node作用解释：  
-ts-node 是一个用于在Node.js环境中直接运行TypeScript代码的工具，不需要先将ts文件转js文件，然后再运行js文件。  
+1. ts-node 是一个用于在Node.js环境中直接运行TypeScript代码的工具，不需要先将ts文件转js文件，然后再运行js文件。  
+2. "./node_modules/.bin/ts-node build.ts" 是运行ts-node命令行工具的路径,build.ts是要执行的TypeScript脚本文件。  
+
 运行go脚本的方式：
 ```shell
 npm run go
