@@ -1,6 +1,14 @@
 ## jwt_gen.ts中主函数解释：
 sign一个用于对数据进行加密并生成 JSON Web Token (JWT) 的函数。下面是对函数中的参数进行详细解释：
-
+```typescript
+function sign(data: { userId: number; role: string; }): Promise<string> {
+    return new Promise((resolve, reject) => {
+        jsonwebtoken.sign(data, secret, options, (err: any, token: any) => {
+            err ? reject(err) : resolve(token || '');
+        });
+    });
+}
+```
 1. data: 这是一个对象，表示要加密并包含在 JWT 中的数据。它有两个属性：
 - userId: 一个表示用户ID的数字值。
 - role: 一个表示用户角色的字符串值。
