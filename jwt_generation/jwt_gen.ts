@@ -24,6 +24,9 @@ sign(data)
   .catch(err => {
     console.error(`登录验证的时候发生错误，错误信息为:\n${err}`);
   });
+// 运行方式：
+// tsc jwt_gen.ts --> node jwt_gen.js
+
 
 // 终端输出的结果为：
 // Signed JWT的值为:
